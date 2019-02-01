@@ -1,19 +1,19 @@
 from temp_conversion_script_2 import convert_c_to_f, fever_detection
 
 
-def test_1():
+def test1():
     answer = convert_c_to_f(20.0)
     expected = 68.0
     assert answer == expected
 
 
-def test_2():
+def test2():
     answer = convert_c_to_f(-40)
     expected = -40
     assert answer == expected
 
 
-def test_3():
+def test3():
     answer = convert_c_to_f(50)
     expected = 122
     assert answer == expected
